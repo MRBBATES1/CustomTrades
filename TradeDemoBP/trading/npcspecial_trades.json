@@ -1,0 +1,90 @@
+{
+  "tiers": [
+    {
+      "trades": [
+	   {
+	    "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ],
+        "gives": [
+	                   {
+                    "item": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_book_contents",
+                            "author": "Bl0ck_M@n",
+                            "title": "Player Secrets",
+                            "pages": [
+								"",
+                                "\n\n\n\n\n     \n\n       Player Secrets",
+								"",
+                                "\nPlease note if you are not the intended recipient you shouldnt be reading this book.\n\nIt contains secrets you shouldnt know or hear about.",
+								"",
+								"\n\nName: Bl0ck_M@n\n\nHeight: 2 Blocks\n\nDescription: Blocks\n\nWeakness: Prolonged Punching\n\nStrengh: Lag"
+                            ]
+                        }
+                    ]
+                }
+          ],
+		  "max_uses":-1,
+		  "trader_exp": 1000
+	   }]
+	}, 
+	   {
+		"total_exp_required": 1000,
+		"trades": [{
+	   	"wants": [
+			{
+				"item":"minecraft:diamond_sword",
+				"quantity":1
+			}
+		],
+		"gives": [
+			{
+				"item":"netherite_sword",
+				"quantity":1,
+				"functions": [
+                	{
+                		  "function": "specific_enchants",
+                          "enchants": [
+                             {
+                                "id": "mending",
+                                "level": 1
+                             },
+                             {
+                                "id": "unbreaking",
+                                "level": 3
+                             },
+							 {
+							 	"id": "sharpness",
+								"level": 5
+							 },
+							 {
+							 	"id":"fire_aspect",
+								"level": 2
+							 }
+                          ]
+                       },
+					   {
+                            "function": "set_name",
+                            "name": "Sword of Blocks"
+                        },
+						{
+                            "function": "set_lore",
+                            "lore": [
+                                "Some say this belonged to blockman himself!",
+                                "Others say its all rubbish",
+                                "but... thats what lore is for ;)"
+                            ]
+                       }
+                    ]
+			}
+		]
+	   }
+  ]
+}
+  ]
+}

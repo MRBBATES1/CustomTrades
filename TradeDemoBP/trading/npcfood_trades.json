@@ -1,0 +1,44 @@
+{
+  "tiers": [
+	{
+	  "trades" : [
+       {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 15,
+                "max": 25
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:golden_carrot",
+			  "quantity": 15
+            }
+          ],
+		  "reward_exp": false
+		},
+       {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 20,
+                "max": 35
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:enchanted_golden_apple",
+			  "quantity": 2
+            }
+          ],
+		  "reward_exp": false
+		}
+		]
+	  }
+  ]
+}

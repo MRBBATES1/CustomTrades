@@ -1,0 +1,272 @@
+{
+   "format_version": "1.17.20",
+   "minecraft:npc_dialogue": {
+      "scenes": [
+         {
+            "scene_tag": "ButlerIdle",
+            "npc_name": "Herbert Milner",
+            "text": "Good Morning Sir, Or is it afternoon, time flys so fast these days.\n\nAnyways, how can i help you sir?",
+            "buttons": [
+               {
+                  "name": "Weapons",
+                  "commands": [
+                     "/dialogue open @s @initiator ButlerWeapons1"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "ButlerWeapons1",
+            "npc_name": "Herbert Milner",
+            "text": "Certainly Sir,\n\nI do believe our contact said that the new helicopter pilot trades in weapons and tools, perhaps we could seek his services?",
+            "buttons": [
+               {
+                  "name": "Lets Go....",
+                  "commands": [
+                     "/dialogue change @s ButlerWeapons2 @initiator"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "ButlerWeapons2",
+            "npc_name": "Herbert Milner",
+            "text": "Sir,\n\nThe helicopter landing pad is outside in front of the robot garage.\n\n",
+            "buttons": []
+         },
+         {
+            "scene_tag": "WeaponsIdle",
+            "npc_name": "William \"Wolf\" ..",
+            "text": "Hello,\n\nI'm your new helicopter pilot, \n\nI'm here to take you to where ever you need to go 24/7\n\n",
+            "buttons": [
+               {
+                  "name": "Weapons...",
+                  "commands": [
+                     "/dialogue open @s @initiator Weapons1"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "Weapons1",
+            "npc_name": "William \"Wolf\" ..",
+            "text": "oh ummm....\n\nYou not the feds right?\n\n",
+            "buttons": [
+               {
+                  "name": "Course not....",
+                  "commands": [
+                     "/dialogue open @s @initiator Weapons2"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "Weapons2",
+            "npc_name": "William \"Wolf\" Weapons",
+            "text": "In that case, then sure i can help, but i dont know you that well, so nothing fancy at first!!\n\nyou got to earn my trust, dont want you killing me with it!!\n\nhaha!",
+            "buttons": [
+               {
+                  "name": "I Wont...",
+                  "commands": [
+                     "/dialogue change @s Weapons3 @initiator"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "Weapons3",
+            "npc_name": "William \"Wolf\" Weapons",
+            "text": "You should not be seeing this player...\n\nthis is just a resting screen for the hidden NPC that handles the intial dialogue. so the NPC is not needed.\n\nand so that means none of this is needed either!!.",
+            "buttons": [
+               {
+                  "name": "Reset",
+                  "commands": [
+                     "/dialogue change @s WeaponsIdle"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "ButlerIdle2",
+            "npc_name": "Herbert Milner",
+            "text": "Yes Sir,\n\nhow can i help you sir?...\n\n\n",
+            "buttons": [
+               {
+                  "name": "Armor",
+                  "commands": [
+                     "/dialogue open @s @initiator ButlerArmor1"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "ButlerArmor1",
+            "npc_name": "Herbert Milner",
+            "text": "Certainly Sir,\n\nTheres this new kid in the garage that said he likes to make armor and that one day he wishes to have a suit like block-man....\n\nSo maybe he can help?",
+            "buttons": [
+               {
+                  "name": "Ummm ... Okay",
+                  "commands": [
+                     "/dialogue change @s ButlerArmor2 @initiator"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "ButlerArmor2",
+            "npc_name": "Herbert Milner",
+            "text": "Sir,\n\nThe garage is next to the helicopter landing pad.",
+            "buttons": []
+         },
+         {
+            "scene_tag": "ArmorIdle",
+            "npc_name": "Andys \"Armor\"",
+            "text": "Oh its you...\n\ni didnt expect to see you in here... its.. i...\n\nHello,\n\nHow can i help you sir?",
+            "buttons": [
+               {
+                  "name": "Armor",
+                  "commands": [
+                     "/dialogue open @s @initiator Armor1"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "Armor1",
+            "npc_name": "Andys \"Armor\"",
+            "text": "Oh you heard about that?\n\nWell, i have not really had the chance to make that many, so the first few might not be that good, but im sure as we get more experience the prototypes willl get better.\n\nWho knows what we might come up with!!",
+            "buttons": [
+               {
+                  "name": "Lets Do It..",
+                  "commands": [
+                     "/dialogue change @s Armor2 @initiator"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "Armor2",
+            "npc_name": "Andys \"Armor\"",
+            "text": "You should not be seeing this player...\n\nthis is just a resting screen for the hidden NPC that handles the intial dialogue. so the NPC is not needed.\n\nand so that means none of this is needed either!!.",
+            "buttons": [
+               {
+                  "name": "Reset",
+                  "commands": [
+                     "/dialogue change @s ArmorIdle"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "ButlerIdle3",
+            "npc_name": "Herbert Milner",
+            "text": "Yes Sir,\n\nhow can i help you sir?...\n\n\n",
+            "buttons": [
+               {
+                  "name": "Food",
+                  "commands": [
+                     "/dialogue open @s @initiator ButlerFood1"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "ButlerFood1",
+            "npc_name": "Herbert Milner",
+            "text": "Ah yes, Freddy can help with that.\n\nHe will have plenty of food for you sir.",
+            "buttons": [
+               {
+                  "name": "Cheers Herb..",
+                  "commands": [
+                     "/dialogue change @s ButlerFood2 @initiator"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "ButlerFood2",
+            "npc_name": "Herbert Milner",
+            "text": "The kitchen is in the main house sir, on the second floor.",
+            "buttons": []
+         },
+         {
+            "scene_tag": "FoodIdle",
+            "npc_name": "Freddy \"Food Man\"",
+            "text": "Hello Sir,\n\nWhat can i do you with today?\n\n",
+            "buttons": [
+               {
+                  "name": "Golden Carrots..",
+                  "commands": [
+                     "/dialogue open @s @initiator Food1"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "Food1",
+            "npc_name": "Freddy \"Food Man\"",
+            "text": "Yeah no worries,\n\nI got you covered boss..\n\nI also have other food, if y know you wanna try something different.\n\n",
+            "buttons": [
+               {
+                  "name": "Thanks..",
+                  "commands": [
+                     "/dialogue change @s Food2 @s"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "Food2",
+            "npc_name": "Freddy \"Food Man\"",
+            "text": "You should not be seeing this player...\n\nthis is just a resting screen for the hidden NPC that handles the intial dialogue. so the NPC is not needed.\n\nand so that means none of this is needed either!!.",
+            "buttons": [
+               {
+                  "name": "Reset",
+                  "commands": [
+                     "/dialogue change @s FoodIdle"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "SpecialIdle",
+            "npc_name": "O",
+            "text": "Pst,\n\nHey boss....\n\nBefore you go, i think i might have something that might be useful.\n\nCheck out the gadgets i have they might give you an advantage this year!!!",
+            "buttons": [
+               {
+                  "name": "Oooooo...",
+                  "commands": [
+                     "/dialogue change @s Special1 @s"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "Special1",
+            "npc_name": "O",
+            "text": "You should not be seeing this player...\n\nthis is just a resting screen for the hidden NPC that handles the intial dialogue. so the NPC is not needed.\n\nand so that means none of this is needed either!!.",
+            "buttons": [
+               {
+                  "name": "Reset",
+                  "commands": [
+                     "/dialogue change @s SpecialIdle"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "despawn",
+            "npc_name": "Despawn",
+            "text": "Good Bye",
+            "buttons": [
+               {
+                  "name": "Despawn",
+                  "commands": [
+                     "/event entity @s b:despawn"
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

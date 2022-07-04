@@ -1,0 +1,376 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "gives": [
+            {
+			"choice": [{
+              	"item": "minecraft:leather_boots",
+			  	"weight": 1,
+				"functions": [
+                {
+                        "function": "set_damage",
+                        "damage": {"min": 0.1,
+                          "max": 0.5}
+                }
+				]
+            },
+			{
+				"item": "minecraft:leather_leggings",
+				"weight": 1,
+				"functions": [
+                {
+                        "function": "set_damage",
+                        "damage": {"min": 0.1,
+                          "max": 0.5}
+                }
+				]
+			},
+			{
+				"item": "minecraft:leather_chestplate",
+				"weight": 1,
+				"functions": [
+                {
+                        "function": "set_damage",
+                        "damage": {"min": 0.1,
+                          "max": 0.5}
+                }
+				]
+			},
+			{
+				"item": "minecraft:leather_helmet",
+				"weight": 1,
+				"functions": [
+                {
+                        "function": "set_damage",
+                        "damage": {"min": 0.1,
+                          "max": 0.5}
+                }
+				]
+			}]}
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 10,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5
+        }
+      ]
+    },
+    {
+	  "total_exp_required": 10,
+      "trades":[
+      {
+        "wants": [
+          {
+            "item": "Minecraft:emerald",
+            "quantity": {
+              "min": 2,
+              "max": 3
+            }
+          }
+        ],
+        "gives": [	
+          {
+			"choice": [{
+            "item": "minecraft:chainmail_boots",
+			"weight": 1,
+			"functions": [
+                {
+                        "function": "set_damage",
+                        "damage": {"min": 0.5,
+                          "max": 0.7}
+                }]
+		  },
+          {
+            "item": "minecraft:chainmail_leggings",
+			"weight": 1,
+			"functions": [
+                {
+                        "function": "set_damage",
+                        "damage": {"min": 0.5,
+                          "max": 0.7}
+                }]
+		  },
+          {
+            "item": "minecraft:chainmail_chestplate",
+			"weight": 1,
+			"functions": [
+                {
+                        "function": "set_damage",
+                        "damage": {"min": 0.5,
+                          "max": 0.7}
+                }]
+		  },
+          {
+            "item": "minecraft:chainmail_helmet",
+			"weight": 1,
+			"functions": [
+                {
+                        "function": "set_damage",
+                        "damage": {"min": 0.5,
+                          "max": 0.7}
+                }]
+		  }]}
+        ],
+		"max_uses": 1,
+		"trader_exp": 20,
+		"reward_exp": false,
+		"price_multiplier": 0.5
+      }
+      ]
+    },
+    {
+	  "total_exp_required": 30,
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ],
+          "gives": [
+            {
+				"choice": [{
+              	"item": "minecraft:iron_boots",
+				"weight": 1
+            },
+			{
+              	"item": "minecraft:iron_leggings",
+				"weight": 1
+            },
+			{
+              	"item": "minecraft:iron_chestplate",
+				"weight": 1
+            },
+			{
+              	"item": "minecraft:iron_helmet",
+				"weight": 1
+            }]}		
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 30,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5
+        }
+	  ]
+	},
+	{
+	"total_exp_required": 60,
+	"trades": [
+			{
+		  "wants":[
+					{
+					"item": "Minecraft:emerald",
+              		"quantity": {
+                	"min": 4,
+                	"max": 5
+				}
+			}
+		],
+          "gives": [
+            {
+				"choice": [{
+              	"item": "Minecraft:diamond_boots",
+				"weight": 1,
+	            "functions": [
+	                {
+	                  "function": "enchant_with_levels",
+	                  "treasure": false,
+	                  "levels": {
+	                    "min": 5,
+	                    "max": 19
+	                  }
+	                }
+	              ]
+            },
+			{
+				"item": "Minecraft:diamond_leggings",
+				"weight": 1,
+				"functions": [
+                {
+                  "function": "enchant_with_levels",
+                  "treasure": false,
+                  "levels": {
+                    "min": 5,
+                    "max": 19
+                  }
+                }
+              ]
+			},
+			{
+				"item": "Minecraft:diamond_chestplate",
+				"weight": 1,
+				"functions": [
+                {
+                  "function": "enchant_with_levels",
+                  "treasure": false,
+                  "levels": {
+                    "min": 5,
+                    "max": 19
+                  }
+                }
+              ]
+			},
+			{
+				"item": "Minecraft:diamond_helmet",
+				"weight": 1,
+				"functions": [
+                {
+                  "function": "enchant_with_levels",
+                  "treasure": false,
+                  "levels": {
+                    "min": 5,
+                    "max": 19
+                  }
+                }
+              ]
+			}]}
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 60,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5
+        }
+      ]
+    },
+	{
+	"total_exp_required": 120,
+	"trades": [
+			{
+		  "wants":[
+					{
+					"item": "Minecraft:emerald",
+              		"quantity": {
+                	"min": 6,
+                	"max": 7
+				}
+			}
+		],
+          "gives": [
+            {
+              "item": "minecraft:netherite_boots",
+              "functions": [
+                {
+                  "function": "enchant_with_levels",
+                  "treasure": false,
+                  "levels": {
+                    "min": 20,
+                    "max": 30
+                  }
+                }
+              ]
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 20,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5
+        },
+		{
+		  "wants":[
+					{
+					"item": "Minecraft:emerald",
+              		"quantity": {
+                	"min": 6,
+                	"max": 7
+				}
+			}
+		],
+          "gives": [
+            {
+              "item": "minecraft:netherite_leggings",
+              "functions": [
+                {
+                  "function": "enchant_with_levels",
+                  "treasure": false,
+                  "levels": {
+                    "min": 20,
+                    "max": 30
+                  }
+                }
+              ]
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 20,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5
+        },
+		{
+		  "wants":[
+					{
+					"item": "Minecraft:emerald",
+              		"quantity": {
+                	"min": 6,
+                	"max": 7
+				}
+			}
+		],
+          "gives": [
+            {
+              "item": "minecraft:netherite_chestplate",
+              "functions": [
+                {
+                  "function": "enchant_with_levels",
+                  "treasure": false,
+                  "levels": {
+                    "min": 20,
+                    "max": 30
+                  }
+                }
+              ]
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 20,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5
+        },
+				{
+		  "wants":[
+					{
+					"item": "Minecraft:emerald",
+              		"quantity": {
+                	"min": 6,
+                	"max": 7
+				}
+			}
+		],
+          "gives": [
+            {
+              "item": "minecraft:netherite_helmet",
+              "functions": [
+                {
+                  "function": "enchant_with_levels",
+                  "treasure": false,
+                  "levels": {
+                    "min": 20,
+                    "max": 30
+                  }
+                }
+              ]
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 20,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5
+        }	
+      ]
+    }
+	]
+}

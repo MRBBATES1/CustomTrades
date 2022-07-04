@@ -1,0 +1,123 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "b:butler",
+	  "runtime_identifier": "minecraft:npc",
+      "is_spawnable": true,
+      "is_summonable": false,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "b:npc_tame": {
+        "minecraft:is_tamed": {}
+
+      },
+	  "b:despawn": {"minecraft:despawn":{}},
+      "b:movement": {
+		"minecraft:behavior.follow_owner": {
+          "priority": 0,
+		  "max_distance": 4,
+          "start_distance": 5,
+          "stop_distance": 3
+        },
+        "minecraft:movement": {
+          "value": 0.5
+        },
+		"minecraft:behavior.float":{
+		    "priority": 1
+			},
+        "minecraft:navigation.walk": {
+          "can_path_over_water": true
+        },
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {}
+        
+      }
+    },
+    "components": {
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:type_family": {
+        "family": [
+          "follownpc"
+        ]
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 2.1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 0,
+        "look_distance": 6,
+        "probability": 0.02
+      },
+      "minecraft:persistent": {},
+	  "minecraft:physics": {},
+      "minecraft:npc": {
+        "npc_data": {
+          "portrait_offsets": {
+            "translate": [
+              -7,
+              50,
+              0
+            ],
+            "scale": [
+              1.75,
+              1.75,
+              1.75
+            ]
+          },
+          "picker_offsets": {
+            "translate": [
+              0,
+              20,
+              0
+            ],
+            "scale": [
+              1.7,
+              1.7,
+              1.7
+            ]
+          },
+          "skin_list": [
+            {
+              "variant": 0
+            }
+          ]
+        }
+      },
+      "minecraft:nameable": {
+        "always_show": false,
+        "allow_name_tag_renaming": true
+      },
+	  "minecraft:conditional_bandwidth_optimization": {}
+    },
+    "events": {
+      "minecraft:on_tame": {
+        "add": {
+          "component_groups": [
+            "b:npc_tame",
+            "b:movement"
+          ]
+        }
+      },
+	  "b:despawn" : {
+	  	"add":{
+			"component_groups": [
+				"b:despawn"
+			]
+		}
+		}
+	  }
+  }
+}

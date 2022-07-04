@@ -1,0 +1,575 @@
+{
+  "tiers": [
+    {
+      "trades": [
+       {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 10,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:wooden_sword",
+				"quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5
+		},
+	    {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 10,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:wooden_axe",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 10,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:wooden_pickaxe",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 10,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:wooden_shovel",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   }
+	   ,
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 10,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:wooden_hoe",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 10,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:fishing_rod",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   }	   
+	  ]
+	},
+	{
+	"total_exp_required": 12,
+		"trades": [
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 15,
+                "max": 20
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:stone_sword",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 15,
+                "max": 20
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:stone_axe",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 15,
+                "max": 20
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:stone_pickaxe",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 15,
+                "max": 20
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:stone_shovel",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 15,
+                "max": 20
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:stone_hoe",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   }
+		]
+	},
+	{
+	"total_exp_required": 22,
+		"trades": [
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 20,
+                "max": 35
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_sword",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 20,
+                "max": 35
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_axe",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 20,
+                "max": 35
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_pickaxe",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 20,
+                "max": 35
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_shovel",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 20,
+                "max": 35
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_hoe",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   }
+		]
+	},
+	{
+	"total_exp_required": 32,	
+		"trades": [
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 35,
+                "max": 50
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:golden_sword",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 35,
+                "max": 50
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:golden_axe",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 35,
+                "max": 50
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:golden_pickaxe",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 35,
+                "max": 50
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:golden_shovel",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+	   {
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 35,
+                "max": 50
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:golden_hoe",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   }
+		]
+	},
+	{
+	"total_exp_required": 42,
+		"trades": [
+		{
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 50,
+                "max": 75
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:diamond_sword",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+		{
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 50,
+                "max": 75
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:diamond_axe",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+		{
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 50,
+                "max": 75
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:diamond_pickaxe",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+		{
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 50,
+                "max": 75
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:diamond_shovel",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   },
+		{
+          "wants": [
+            {
+              "item": "Minecraft:emerald",
+              "quantity": {
+                "min": 50,
+                "max": 75
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:diamond_hoe",
+			  "quantity": 1
+            }
+          ],
+		  "max_uses": 1,
+		  "trader_exp": 2,
+		  "reward_exp": false,
+		  "price_multiplier": 0.5   	
+	   }
+		]
+	}
+  ]
+}
