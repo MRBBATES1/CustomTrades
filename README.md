@@ -1,4 +1,4 @@
-# CustomSkinPack
+# Custom Trades / Shops on any NPC!
 
 __Version:__ 1.19+
 
@@ -8,7 +8,7 @@ __Description:__
 
 This is the pack that was made/showcased to demostrate how to add custom trades to your NPCs in minecraft bedrock edition.
 
-This includes the orginal blockbench model and texture used to creat Herb. The texture used for heb was created [shnoob](https://www.minecraftskins.com/skin/16231971/old-butler-fixed/)
+This includes the orginal blockbench model and texture used to creat Herb. The texture used for heb was created by [shnoob](https://www.minecraftskins.com/skin/16231971/old-butler-fixed/)
 
 __Featured In:__
 
