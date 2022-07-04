@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Custom Trades by MRBBATES1",
+        "name": "Custom Trades by MRBBATES1",
+        "uuid": "30590cea-d9c4-41ad-8293-feda0791f3de",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 17, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Custom Trades by MRBBATES1",
+            "type": "resources",
+            "uuid": "5828712c-910b-4144-a5dc-b1192782df40",
+            "version": [0, 0, 1]
+        }
+    ]
+}
