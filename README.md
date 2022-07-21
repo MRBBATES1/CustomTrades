@@ -12,4 +12,4 @@ This includes the trading files as well as the all the information nessary to cr
 
 __Featured In:__
 
-[How To Add Custom Trades to NPCS For Minecraft Bedrock Edition](https://youtu.be/Xbyy_nZZV-E)
+[How To Add Custom Trades to NPCS For Minecraft Bedrock Edition](https://youtu.be/G0b3oNjJPUY)
